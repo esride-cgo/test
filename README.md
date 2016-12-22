@@ -30,7 +30,7 @@ Numbered list:
 
 A [Markdown](https://en.wikipedia.org/wiki/Markdown).
 Bullet?
-• eins
-• zwo
+• eins  
+• zwo  
 <img src='TaskManager.png' alt='huhu' title='kuckuck'/>
 <img src='doc/Search.png' alt='Search' title='Search'/>

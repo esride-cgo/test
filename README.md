@@ -28,7 +28,7 @@ Numbered list:
   2. oranges
   3. pears
 
-A [Markdown](https://en.wikipedia.org/wiki/Markdown).
+A [Markdown](https://en.wikipedia.org/wiki/Markdown).  
 GitHub Flavored Markdown (GFM) treats newlines in paragraph-like content as real line breaks, ignores underscores in words, and adds syntax highlighting, task lists,[36] and tables.[37]
 
 ### Prerequisites:

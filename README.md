@@ -40,3 +40,4 @@ GitHub Flavored Markdown (GFM) treats newlines in paragraph-like content as real
 
 ⛯ Tip:  
 <img src='doc/Search.png' alt='Search' title='Search'/>
+![alt tag](doc/Download.png)

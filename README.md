@@ -31,8 +31,12 @@ Numbered list:
 A [Markdown](https://en.wikipedia.org/wiki/Markdown).
 GitHub Flavored Markdown (GFM) treats newlines in paragraph-like content as real line breaks, ignores underscores in words, and adds syntax highlighting, task lists,[36] and tables.[37]
 
-Bullet?  
+### Prerequisites:
+"Customize" ▸ "ArcMap Options..." ▸ "Raster Catalog" ▸ "Display selected rasters with transparency: 0%" (default is 30%, which appears very hazy)
+
+📓 Note:  
 • eins  
 • zwo  
 
+⛯ Tip:  
 <img src='doc/Search.png' alt='Search' title='Search'/>

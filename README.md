@@ -6,6 +6,9 @@ require 'redcarpet'
 markdown = Redcarpet.new("Hello World!")
 puts markdown.to_html
 ```
+- [x] Finish my changes
+- [ ] Push my commits to GitHub
+- [ ] Open a pull request
 
 # Heading
 

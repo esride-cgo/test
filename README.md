@@ -32,6 +32,7 @@ Numbered list:
   3. pears
 
 Besser ohne explizite Nummern:
+
 0. Ja.
 0. Vielleicht.
 0. Nein.

@@ -31,8 +31,7 @@ Numbered list:
   2. oranges
   3. pears
 
-Besser ohne explizite Nummern:
-
+Besser ohne explizite Nummern:  
 0. Ja.
 0. Vielleicht.
 0. Nein.

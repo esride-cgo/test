@@ -35,6 +35,8 @@ GitHub Flavored Markdown (GFM) treats newlines in paragraph-like content as real
 
 `wasndasn?`
 
+## <a name="installation"></a>Installation
+
 ### Prerequisites:
 "Customize" ▸ "ArcMap Options..." ▸ "Raster Catalog" ▸ "Display selected rasters with transparency: 0%" (default is 30%, which appears very hazy)
 

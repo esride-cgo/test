@@ -1,3 +1,5 @@
+* [Installation](#installation)
+
 # Heading
 
 ## Sub-heading

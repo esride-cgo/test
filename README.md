@@ -1,6 +1,12 @@
 * [Installation](#installation)
 * [ohne explizites anchor-Element](#prerequisites)
 
+```ruby
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
+
 # Heading
 
 ## Sub-heading

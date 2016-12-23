@@ -49,9 +49,9 @@ Besser ohne explizite Nummern:
 A [Markdown](https://en.wikipedia.org/wiki/Markdown).  
 GitHub Flavored Markdown (GFM) treats newlines in paragraph-like content as real line breaks, ignores underscores in words, and adds syntax highlighting, task lists,[36] and tables.[37]
 
-> Border(left)
+> Quoted Text = Border(left)
 
-`wasndasn?`
+Dieser Satz ~~k~~ein Fehler.
 
 ## <a name="installation"></a>Installation
 

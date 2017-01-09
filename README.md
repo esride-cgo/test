@@ -4,8 +4,10 @@
 * [ohne explizites anchor-Element](#prerequisites)
 
 <details>
-  <summary>Some details</summary>
-  <p>More info about the details.</p>
+<summary>Some details</summary>
+1. More info about the details.
+2. usw.
+3. Ende.
 </details>
 
 First Header | Second Header

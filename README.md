@@ -101,6 +101,8 @@ Horizontal rule:
 
 ---
 
+hi<sup>1</sup> low<sub>2</sub>
+
 Bullet list:
 
   * apples
@@ -169,6 +171,8 @@ Reference-style:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+
+![](http://w3.org/Icons/valid-xhtml10)
 
 ⛯ Tip:  
 <img src='doc/Search.png' alt='Search' title='Search'/>

@@ -1,4 +1,4 @@
-[Download ZIP](archive/master.zip)
+[Download ZIP](../../archive/master.zip)
 
 * [Installation](#installation)
 * [ohne explizites anchor-Element](#prerequisites)

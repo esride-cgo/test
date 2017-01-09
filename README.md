@@ -6,19 +6,6 @@ First Header | Second Header
 Content from cell 1 | Content from cell 2
 Content in the first column | Content in the second column
 
-:Authors:
-    Tony J. (Tibs) Ibbs,
-    David Goodger
-
-    (and sundry other good-natured folks)
-
-:Version: 1.0 of 2001/08/08
-:Dedication: To my father. 
-
-Fußnote [1] oder was?
-
-hier
-  bla bla und so weiter
 
 
 ```ruby

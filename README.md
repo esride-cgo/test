@@ -13,6 +13,21 @@ Markdown | Less | Pretty
 *Still* | `renders` | **nicely**
 1 | 2 | 3
 
+| Left-aligned | Center-aligned | Right-aligned |
+| :---         |     :---:      |          ---: |
+| git status   | git status     | git status    |
+| git diff     | git diff       | git diff      |
+
+(http://esri.de "Esri DE")
+
+![GitHub Logo](/images/logo.png)
+Format: ![Alt Text](url)
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
+
 <dl>
   <dt>Definition list</dt>
   <dd>Is something people use sometimes.</dd>

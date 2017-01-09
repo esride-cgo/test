@@ -177,3 +177,7 @@ Reference-style:
 ⛯ Tip:  
 <img src='doc/Search.png' alt='Search' title='Search'/>
 ![alt tag](doc/Download.png)
+
+// Include file
+{"gitdown": "include", "file":"LICENSE"}
+

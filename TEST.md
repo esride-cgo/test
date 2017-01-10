@@ -18,5 +18,5 @@ On download success, the respective raster datasets are presented in ArcMap.
 ## Getting Started
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcGIS _Folder Connection_.  
   📓 **Note**: Do not simply drag and drop the Toolbox icon to a desired ArcGIS _Folder Connection_ (e.g. "My Toolboxes"), because by doing so ArcGIS Desktop only copies the Toolbox .pyt file in conjunction with the belonging *.xml help files but leaves out all other dependend files!
-* Before using the tools, it is highly advised to read the respectivce _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the respective tool _Usage_ of each tool (also available from each _Tool Help_).
+* Before using the tools, it is highly advised to read the respectivce _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the respective _Usage_ of each tool (also reachable from each _Tool Help_).
   When running the parameter form of a particular tool, consult the respective _Parameter Explanation_ shown in the side panel (button "Show Help >>" opens the side panel).

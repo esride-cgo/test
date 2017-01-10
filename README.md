@@ -6,7 +6,7 @@
 <details>
 <summary>Some details</summary>
 1. More info about the details.
-2. Lässt sich also nicht mischen mit Mardown!
+2. Lässt sich also nicht mischen mit Markdown!
 3. Ende.
 <ol>
 <li>So wäre es richtig gewesen...</li>

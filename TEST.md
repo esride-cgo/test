@@ -1,10 +1,12 @@
 ## Purpose
 Provide assistence to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:
+
 1. _Search_ Data Hub Services' (DHuS) product catalog for Sentinel-2 L1C products according to given criteria.
   ![](doc/Search.png "Search tool results.")
 2. Interactively browse metadata (attribute table) and product previews (by selecting product records); mark desired product records for download.
 3. With each Marked entry in the local product catalog, _Download_ the respective raster data package.
   ![](doc/Download.png "Download in a batch run.")
+
 On download success, the respective raster datasets are presented in ArcMap.
 
 ## Prerequisites

@@ -11,7 +11,7 @@ Provide assistance to occasional users to deal with Sentinel data in a local Arc
 On download success, the respective raster datasets are presented in ArcMap.
 
 #### Characteristics
-* The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcGIS does not yet support it as usual in terms of a built-in raster product; as a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
+* The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcGIS Desktop does not yet support it as usual in terms of a built-in raster product; as a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
 * A multi-tile package is reflected by multiple records in the search results table (raster catalog) rather than by one single product record; in this way each tile preview can be raised and examined individually. But when it comes to the download of such a multi-tile product, the _Download_ tool treats those multiple records as a single entity, i.e. a single (full) product download will be performed regardless of how many tiles are _Marked_.  
    Over time, this kind of quirk looses its relevance because newer products are solely provided as single-tile packages (since the end of September 2016).
 * Image selection??? Ja oder nein???

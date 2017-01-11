@@ -17,7 +17,7 @@ On download success, the respective raster datasets are presented in ArcMap.
 
 ## Getting Started
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcCatalog _Folder Connection_.  
-  Make sure that the original file structure is preserved (relative paths); all referenced files have to be properly placed with respect to the main Toolbox files (.pyt, *.xml), by name sensub.py and all *.lyr files within their respective subdirectory.  
+  Make sure that the original file structure is preserved (relative paths); all referenced files have to be properly placed with respect to the main Toolbox files (.pyt, \*.xml), by name sensub.py and all \*.lyr files within their respective subdirectory.  
   📓 **Note**: Do not simply drag and drop the Toolbox icon to a desired ArcCatalog _Folder Connection_ (e.g. "My Toolboxes"), because by doing so ArcCatalog only copies the Toolbox .pyt file in conjunction with its belonging *.xml help files but leaves out all other dependend files!
 * Before using the tools, it is highly advised to read the respectivce _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the respective _Usage_ of each tool (also reachable from each _Tool Help_). Amongst others, the _Usage_ of the _Search_ tool introductory explains some general ArcMap settings that have to be carried out beforehand.  
   When running the parameter form of a particular tool, consult the respective _Parameter Explanation_ shown in the side panel (button "Show Help >>" opens the side panel).

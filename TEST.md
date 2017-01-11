@@ -11,7 +11,8 @@ Provide assistence to occasional users to deal with Sentinel data in a local Arc
 On download success, the respective raster datasets are presented in ArcMap.
 
 #### Characteristics
-* Products that conform to the newer version (>=14) of the Products Specification Document (PSD) are handled, but ArcGIS does not yet support it in terms of a built-in raster product; as a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter.
+* The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcGIS does not yet support it as usual in terms of a built-in raster product; as a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
+* Image selection??? Ja oder nein???
 
 ## Prerequisites
 * Valid login credentials for DHuS ([self-registration](https://scihub.copernicus.eu/userguide)).
@@ -22,6 +23,6 @@ On download success, the respective raster datasets are presented in ArcMap.
 ## Getting Started
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcCatalog _Folder Connection_.  
   Make sure that the original file structure is preserved (relative paths); all referenced files have to be properly placed with respect to the main Toolbox files (.pyt, \*.xml), by name sensub.py and all \*.lyr files within their respective subdirectory.  
-  📓 **Note**: Do not simply drag and drop the Toolbox icon to a desired ArcCatalog _Folder Connection_ (e.g. "My Toolboxes"), because by doing so ArcCatalog copies only the Toolbox .pyt file in conjunction with its belonging *.xml help files but leaves out all other dependend files!
+  📓 **Note**: Do not simply drag and drop the Toolbox icon to a desired ArcCatalog _Folder Connection_ (e.g. "My Toolboxes"), because by doing so ArcCatalog copies only the Toolbox .pyt file in conjunction with its belonging *.xml help files but leaves out all other dependent files!
 * Before using the tools, it is highly advised to read the respective _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the respective _Usage_ of each tool (also reachable from each _Tool Help_). Amongst others, the _Usage_ of the _Search_ tool introductorily explains some general ArcMap settings that have to be carried out beforehand.  
   When running the parameter form of a particular tool, consult the respective _Parameter Explanation_ shown in the side panel (button "Show Help >>" opens the side panel).

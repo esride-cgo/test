@@ -2,7 +2,7 @@
 Provide assistence to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:
 
 1. **Search** Data Hub Services' (DHuS) product catalog for Sentinel-2 L1C products according to given criteria (in particular spatiotemporal constraints and cloud cover limit).  
-  The search results are stored into a local product catalog (raster catalog) acting as a controllable cache (for product metadata and previews).
+  The search results are stored into a local product catalog (raster catalog) acting as a controllable cache (for product metadata and previews).  
   ![](doc/Search.png "Search tool results.")
 2. Interactively browse metadata (attribute table) and product previews (by selecting product records); mark desired product records for download.
 3. With each _Marked_ entry in the local product catalog, **Download** the respective raster data package.

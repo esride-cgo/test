@@ -18,9 +18,10 @@ On download success, the respective raster datasets are presented in ArcMap.
 
 ## Prerequisites
 * Valid login credentials for DHuS ([self-registration](https://scihub.copernicus.eu/userguide)).
-* Tested with ArcMap/ArcCatalog 10.4.1 (not suitable for ArcGIS Pro until further notice).
-* [ArcGIS 10.4.1 Raster Patch](http://support.esri.com/Products/Desktop/arcgis-desktop/arcmap/10-4-1#downloads?id=7396).
-* On affected systems: [ArcGIS Runtime Error R6034 Patch](http://support.esri.com/download/7391).
+* Tested with ArcMap/ArcCatalog version 10.4.1 and 10.5 (not suitable for ArcGIS Pro until further notice).
+* Regarding ArcMap 10.4.1:
+  * [ArcGIS 10.4.1 Raster Patch](http://support.esri.com/Products/Desktop/arcgis-desktop/arcmap/10-4-1#downloads?id=7396).
+  * On affected systems: [ArcGIS Runtime Error R6034 Patch](http://support.esri.com/download/7391).
 
 ## Getting Started
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcCatalog _Folder Connection_.  

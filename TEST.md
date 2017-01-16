@@ -14,7 +14,7 @@ On download success, the respective raster datasets are presented in ArcMap.
 * The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcMap does not yet support it as usual in terms of a built-in raster product; as a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
 * A multi-tile package is reflected by multiple records in the search results table (raster catalog) rather than by one single product record; in this way each tile preview can be raised and examined individually. But when it comes to the download of such a multi-tile product, the _Download_ tool treats those multiple records as a single entity, i.e. a single (full) product download will be performed regardless of how many tiles are _Marked_.  
    Over time, this kind of quirk looses its relevance because newer products are solely provided as single-tile packages (since the end of September 2016).
-* Image selection??? Ja oder nein???
+* Contrary to the previous point, when using the "Image selection" mode of the _Download_ tool, only with _Marked_ tiles the download of respective product images is performed, i.e. non-marked tiles are actually ignored even if they are part of a multi-tile package.
 
 ## Prerequisites
 * Valid login credentials for DHuS ([self-registration](https://scihub.copernicus.eu/userguide)).
@@ -27,5 +27,5 @@ On download success, the respective raster datasets are presented in ArcMap.
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcCatalog _Folder Connection_.  
   Make sure that the original file structure is preserved (relative paths); all referenced files have to be properly placed with respect to the main Toolbox files (.pyt, \*.xml), by name sensub.py and all \*.lyr files within their respective subdirectory.  
   📓 **Note**: Do not simply drag and drop the Toolbox icon to a desired ArcCatalog _Folder Connection_ (e.g. "My Toolboxes"), because by doing so ArcCatalog copies only the Toolbox .pyt file in conjunction with its belonging *.xml help files but leaves out all other dependent files!
-* Before using the tools, it is highly advised to read the respective _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the respective _Usage_ of each tool (also reachable from each _Tool Help_). Amongst others, the _Usage_ of the _Search_ tool introductorily explains some general ArcMap settings that have to be carried out beforehand.  
+* Before using the tools, it is highly advised to read the respective _Item Description_ of the Toolbox and of each tool in advance (see respective context menu in ArcMap), particularly the _Usage_ of each tool (also reachable from each _Tool Help_). Amongst others, the _Usage_ of the _Search_ tool introductorily explains some general ArcMap settings that have to be carried out beforehand.  
   When running the parameter form of a particular tool, consult the respective _Parameter Explanation_ shown in the side panel (button "Show Help >>" opens the side panel).

@@ -23,7 +23,7 @@ http://www.webpagefx.com/tools/emoji-cheat-sheet
 * :no_entry: no_entry
 * :no_entry_sign: no_entry_sign
 * :link: link
-
+* :copyright: copyright
 
 [test.pdf](https://github.com/esride-cgo/test/files/710856/test.pdf)
 

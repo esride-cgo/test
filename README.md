@@ -1,4 +1,29 @@
-:warning: huhu!
+http://www.webpagefx.com/tools/emoji-cheat-sheet
+* :warning: warning
+* :construction: construction
+* :star: star
+* :zap: zap
+* :octocat: octocat
+* :bell: bell
+* :email: email
+* :e-mail: e-mail
+* :envelope: envelope
+* :postbox: postbox
+* :pushpin: pushpin
+* :bulb: bulb
+* :notebook: notebook
+* :ledger: ledger
+* :memo: memo
+* :pencil: pencil
+* :pencil2: pencil2
+* :bomb: bomb
+* :package: package
+* :one: one
+* :arrow_right: arrow_right
+* :no_entry: no_entry
+* :no_entry_sign: no_entry_sign
+* :link: link
+
 
 [test.pdf](https://github.com/esride-cgo/test/files/710856/test.pdf)
 

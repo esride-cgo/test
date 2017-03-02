@@ -1,4 +1,6 @@
-﻿## Purpose
+﻿![](doc/Previews.png "Selected previews drawn in the map; alternativly popped up."
+
+## Purpose
 The purpose is to provide assistance to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:
 
 1. **Search** Data Hub Services' (DHuS) product catalog for Sentinel-2 L1C products according to given criteria (in particular spatiotemporal constraints and cloud cover limit).  

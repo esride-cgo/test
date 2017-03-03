@@ -1,4 +1,4 @@
-﻿![](doc/Previews.png "Previews drawn in the map, or separately popped up.")
+﻿![](doc/Previews.png "Previews drawn on the map, or separately popped up.")
 
 ## Purpose
 The purpose is to provide assistance to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:

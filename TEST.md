@@ -13,7 +13,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* :new: CODE-DE support (since March 2017): The german mirror site provides [DHuS](https://code-de.org/dhus) in a similir way to ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)). The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (besides mainstream DHuS at SciHub site).
+* :new: CODE-DE support (since March 2017): The [german mirror site provides DHuS](https://code-de.org/dhus) in a similir way to ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)). The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (besides mainstream DHuS at SciHub site).  
   📓 **Note**: It may happen that certain data sets are missing at CODE-DE site. If in doubt, rerun the respective tool against DHuS at SciHub site.
 * The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcMap does not yet support it in terms of a built-in raster product. As a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
 * A multi-tile package is represented by multiple records in the search results table (raster catalog) rather than by one single product record. This way each tile preview can be examined individually. When it comes to downloading such a multi-tile product, the _Download_ tool treats those multiple records as a single entity, i.e. a single (full) product download will be performed regardless of how many tiles are _Marked_.  
@@ -22,8 +22,8 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
 
 ## Prerequisites
 * Valid login credentials for DHuS at
-    * either SciHub: https://scihub.copernicus.eu/dhus/#/self-registration
-    * or CODE-DE: https://code-de.org/dhus/#/self-registration
+    * either SciHub site: https://scihub.copernicus.eu/dhus/#/self-registration
+    * or CODE-DE site: https://code-de.org/dhus/#/self-registration
 * Tested with ArcMap/ArcCatalog version 10.4.1 and 10.5 (not suitable for ArcGIS Pro until further notice).
 * Regarding ArcMap 10.4.1:
   * [ArcGIS 10.4.1 Raster Patch](http://support.esri.com/Products/Desktop/arcgis-desktop/arcmap/10-4-1#downloads?id=7396).

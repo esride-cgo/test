@@ -13,7 +13,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* :new: CODE-DE support (since March 2017): The [german mirror site provides DHuS](https://code-de.org/dhus) in a similir way to ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)). The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (besides the mainstream DHuS at SciHub site).  
+* :new: CODE-DE support (since March 2017): The [German mirror site provides DHuS](https://code-de.org/dhus) in a similir way to ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)). The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (besides the mainstream DHuS at SciHub site).  
   📓 **Note**: It may happen that certain data sets are missing at CODE-DE site. If in doubt, rerun the respective tool against the reference DHuS at SciHub site.
 * The newer version (>=14) of the Products Specification Document (PSD) is respected, but ArcMap does not yet support it in terms of a built-in raster product. As a substitute for this, the natural color composite (TCI) is used for the _Download_ tool output parameter until further notice.
 * A multi-tile package is represented by multiple records in the search results table (raster catalog) rather than by one single product record. This way each tile preview can be examined individually. When it comes to downloading such a multi-tile product, the _Download_ tool treats those multiple records as a single entity, i.e. a single (full) product download will be performed regardless of how many tiles are _Marked_.  

@@ -1,5 +1,5 @@
 ﻿![](doc/Previews.png "Selected previews are drawn on the map.
-Besides, picked previews are opened in separate pup-up windows.")
+Besides, picked previews can be opened in separate pup-up windows.")
 
 ## Purpose
 The purpose is to provide assistance to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:

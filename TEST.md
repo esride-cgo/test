@@ -1,4 +1,4 @@
-﻿![](doc/Previews.png "Selected previews are drawn on the map.
+﻿![](doc/Previews.png "Selected tile previews are drawn on the map.
 Besides, picked previews can be opened in separate pup-up windows.")
 
 ## Purpose

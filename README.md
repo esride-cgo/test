@@ -32,7 +32,7 @@ http://www.webpagefx.com/tools/emoji-cheat-sheet
 
 * [Installation](#installation)
 * [ohne explizites anchor-Element](#prerequisites)
-* Proxy server settings are automatically taken into account by the python interpreter, either based on respective Internet Explorer settings, or based on the two environment variables https_proxy + http_proxy (incl. optional Basic Authorization, see the proxy-example*.* files within the [doc](doc) directory).
+* Proxy server settings are automatically taken into account by the python interpreter, either based on respective Internet Explorer settings, or based on the two environment variables `https_proxy` + `http_proxy` (incl. optional Basic Authorization, see the proxy-example*.* files within the [doc](doc) directory).
 
 <details>
 <summary>Some details</summary>

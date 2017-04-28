@@ -1,13 +1,13 @@
-Windows Registry Editor Version 5.00
+﻿Windows Registry Editor Version 5.00
 
 ; User-specific settings, i.e. they affect only the current user!
 [HKEY_CURRENT_USER\Environment]
 
 ; Syntax without Basic Authorization: ProxyServer:ProxyPort
-"https_proxy"="192.168.3.128:3128"
-"http_proxy"="192.168.3.128:3128"
+"nixs_proxy"="192.168.3.128:3128"
+"nix_proxy"="192.168.3.128:3128"
 
 ; If the proxy server use requires Basic Authorization: MyUserNameAtProxy:MyPasswordAtProxy@ProxyServer:ProxyPort
-; "https_proxy"="JohnDoe:VerySecret@192.168.3.128:3128"
+; "https_proxy"="JohnDö:VerySecret@192.168.3.128:3128"
 ; "http_proxy"="JohnDoe:VerySecret@192.168.3.128:3128"
 

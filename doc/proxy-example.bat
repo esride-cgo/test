@@ -1,9 +1,10 @@
 @echo off
-:: Set environment variables for proxy server use, then start the affected process.
+:: edit Set environment variables for proxy server use, then start the affected process.
 
 set ProxyServer=192.168.3.128
 set ProxyPort=3128
 
+rem edit
 :: If the proxy server use requires Basic Authorization, additionally set:
 rem set MyUserNameAtProxy=JohnDoe
 rem set MyPasswordAtProxy=VerySecret

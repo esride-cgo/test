@@ -14,3 +14,5 @@ set https_proxy=%MyUserNameAtProxy%:%MyPasswordAtProxy%@%ProxyServer%:%ProxyPort
 set http_proxy=%https_proxy%
 @echo on
 "C:\Program Files (x86)"\ArcGIS\Desktop10.5\bin\ArcMap.exe
+
+rem edit

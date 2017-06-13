@@ -14,7 +14,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* Level-2A (L2A) products, avaiable from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are respected. The _Download_ tool displays a L2A product by a Group Layer, incl. embodied scene classification image, SCL, with suitable symbology:  
+* Level-2A (L2A) products, avaiable from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are respected. The _Download_ tool displays a L2A product by a Group Layer, incl. embodied scene classification image (SCL) along with appropriate symbology:  
   ![](doc/SceneClassification.png "Scene classification's unique values.")
 * Irrespective of whether a specific product already exists in the specified local raster directory, the _Download_ tool always generates the belonging output layer for convenience (even though all redundant download actions have been skipped) – might be useful when one just wants to recreate those layers incl. appropriate symbology.
 * Proxy server settings are automatically taken into account by the python interpreter, either based on respective Internet Explorer settings, or based on the two environment variables `https_proxy` + `http_proxy` (incl. optional Basic Authorization, see the proxy-example*.* files within the [doc](doc) directory).

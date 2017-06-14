@@ -15,7 +15,7 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
 * Level-2A (L2A) products, avaiable from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are respected. The _Download_ tool displays a L2A product by a Group Layer (cloud & snow/ice confidence, natural color composite, scene classification), along with appropriate symbology, for example:  
-  ![](doc/SceneClassification.png "Scene classification's unique values.")
+  ![](doc/SceneClassification.png "Unique pixel values (stored as 8-bit integer), along with their respective display color and label.")
 * Irrespective of whether a specific product already exists in the specified local raster directory, the _Download_ tool always generates the belonging output layer for convenience (even though all redundant download actions have been skipped) – might be useful when you simply want to recreate those layers incl. appropriate symbology.
 * Proxy server settings are automatically taken into account by the python interpreter, either based on respective Internet Explorer settings, or based on the two environment variables `https_proxy` + `http_proxy` (incl. optional Basic Authorization, see the proxy-example*.* files within the [doc](doc) directory).
 * CODE-DE support (since March 2017): The [German mirror site provides DHuS](https://code-de.org/dhus) similary to SciHub. The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (in addition to the mainstream DHuS at SciHub site).  

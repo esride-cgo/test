@@ -4,7 +4,7 @@ In addition, picked previews can be opened in separate pup-up windows.")
 ## Purpose
 The purpose is to provide assistance to occasional users to deal with Sentinel data in a local ArcGIS Desktop environment by means of two Python Toolbox tools and common ArcGIS Desktop experience:
 
-1. **Search** Data Hub Services' (DHuS) product catalog for Sentinel-2 products (L1C, or L2A where avaiable) according to given criteria (in particular spatiotemporal constraints and cloud cover limit).  
+1. **Search** Data Hub Services' (DHuS) product catalog for Sentinel-2 products (L1C, or L2A where available) according to given criteria (in particular spatiotemporal constraints and cloud cover limit).  
   The search results are stored in a local product catalog (raster catalog) acting as a controllable cache (for product metadata and previews).  
   ![](doc/Search.png "Search tool results.")
 2. Interactively browse metadata (attribute table) and product previews (by selecting product records); mark desired product records for download.
@@ -14,7 +14,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* Level-2A (L2A) products, avaiable from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are respected. The _Download_ tool displays a L2A product by a Group Layer, composed of confidence images for cloud (CLD) and snow/ice (SNW), a natural color composite (TCI), and a scene classification image (SCL), along with appropriate symbology:  
+* Level-2A (L2A) products, available from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are respected. The _Download_ tool displays a L2A product by a Group Layer, composed of confidence images for cloud (CLD) and snow/ice (SNW), a natural color composite (TCI), and a scene classification image (SCL), along with appropriate symbology:  
   ![](doc/L2A.jpg "SCL of the upper product on the left,
 CLD+SNW+TCI of the lower product on the right.")
 * Irrespective of whether a specific product already exists in the specified local raster directory, the _Download_ tool always generates the belonging output layer for convenience (even though all redundant download actions have been skipped) – might be useful when you simply want to recreate those layers incl. appropriate symbology.

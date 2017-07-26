@@ -28,7 +28,7 @@ CLD+SNW+TCI of the lower product on the right.")
 
 ## Prerequisites
 * Valid login credentials for DHuS at either one of the following
-    * SciHub site: https://scihub.copernicus.eu/dhus/#/self-registration
+    * Copernicus Open Access Hub: https://scihub.copernicus.eu/dhus/#/self-registration
     * CODE-DE site: https://code-de.org/dhus/#/self-registration
 * Tested with ArcMap/ArcCatalog version 10.4.1, 10.5, 10.5.1 (not suitable for ArcGIS Pro until further notice).
 * Regarding ArcMap 10.4.1:

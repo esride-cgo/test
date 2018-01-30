@@ -14,10 +14,10 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* :new: ArcGIS 10.6 now provides Level-2A (L2A) function templates with its built-in Sentinel-2 raster product type, whereof the 10 meter Bottom-Of-Atmosphere (BOA) template is added to a L2A Group Layer:  
+* Level-2A (L2A) products, available from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are taken into account as an option. The _Download_ tool displays a L2A product by a Group Layer, composed of confidence images for cloud (CLD) and snow/ice (SNW), a scene classification image (SCL), and a natural color composite (TCI), along with appropriate symbology.  
+:new: ArcGIS 10.6 now provides L2A function templates with its built-in Sentinel-2 raster product type, whereof the 10 meter Bottom-Of-Atmosphere (BOA) template is added to the L2A Group Layer:  
   ![](doc/L2A.jpg "SCL of the upper product on the left,
 CLD+SNW+BOA of the lower product on the right.")
-* L2A products, available from ESA's Copernicus Open Access Hub ([SciHub DHuS](https://scihub.copernicus.eu/dhus)) since begin of May 2017, are taken into account as an option. The _Download_ tool displays a L2A product by a Group Layer, composed of confidence images for cloud (CLD) and snow/ice (SNW), a scene classification image (SCL), and a natural color composite (TCI), along with appropriate symbology.
 * Irrespective of the existence of a specific product in the specified local raster directory, the _Download_ tool generates the corresponding output layer(s), even though all redundant download actions have been skipped. This might be useful when you simply want to recreate those layers incl. appropriate symbology.
 * The python interpreter automatically takes proxy server settings into account, either based on respective Internet Explorer settings, or based on the two environment variables `https_proxy` + `http_proxy` (incl. optional Basic Authorization. See the proxy-example*.* files within the [doc](doc) directory).
 * CODE-DE support (since March 2017): The [German mirror site provides DHuS](https://code-de.org/dhus) similary to Copernicus Open Access Hub (SciHub site). The Toolbox tools do now allow for choosing CODE-DE as an alternative DHuS site (in addition to the mainstream DHuS at SciHub site).  

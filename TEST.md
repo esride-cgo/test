@@ -14,7 +14,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* With regard to Level-2A (L2A) products, the newer version (>=14.5) of the Products Specification Document (PSD) that has been introduced with the [operational](https://scihub.copernicus.eu/news/News00305) distribution of L2A products is taken into account.  
+* With regard to Level-2A (L2A) products, the newer version (>=14.5) of the Products Specification Document (PSD), which has been introduced with the [operational](https://scihub.copernicus.eu/news/News00305) distribution of L2A products, is taken into account.  
   The *Search* tool transparently merges search results relating to the (old) Level-2Ap pilot collection (which still provides those L2A products that are dated before 2018-03-26, i.e. having a processing baseline number not higher than 02.06) with search results relating to the (new) operational Level-2A collection (L2A products from 2018-03-26 onwards, i.e. tagged with a processing baseline number from 02.07 onwards).  
   :bulb: Tip: A product's processing baseline number is identifiable by means of its "\_N....\_" tag as part of its title string.
 * For L2A products with processing baseline number not higher than 02.06 (for example, those originating from the aforesaid Level-2Ap pilot collection), ArcGIS 10.6 provides various function templates with its built-in Sentinel-2 raster product type, whereof the 10 meter Bottom-Of-Atmosphere (BOA) template is added to the L2A Group Layer.  

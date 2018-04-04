@@ -20,7 +20,7 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
   ```python
   BandArithmetic(CompositeBand("F32", B["03"], Resample(B["11"])), "10*(b1-b2)/(b1+b2) -1/2")
   ```
-  This allows for individual modifications, for example to adjust the threshold value (offset), or to extensively modify a formula's arithmetic expression, or to quickly implement your very own index.
+  This allows for individual modifications, for example to adjust the threshold value (offset), to extensively modify a formula's arithmetic expression, or to quickly implement your very own index.
 * As to L2A products, the newer version (>=14.5) of the Products Specification Document (PSD), which has been introduced with the [operational](https://scihub.copernicus.eu/news/News00305) distribution of L2A products, is taken into account.  
   The *Search* tool transparently merges search results relating to the (old) Level-2Ap pilot collection (which still provides those L2A products that are dated before 2018-03-26, i.e. having a processing baseline number not higher than 02.06) with search results relating to the (new) operational Level-2A collection (L2A products from 2018-03-26 onwards, i.e. tagged with a processing baseline number from 02.07 onwards).  
   :bulb: Tip: A product's processing baseline number is identifiable by means of its "\_N....\_" tag as part of its title string.

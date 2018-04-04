@@ -18,7 +18,7 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
   ![](doc/L2A.jpg "Various water indices (based on L2A band images).")
   By leveraging raster function chains, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for MNDWI reads (with scaling [-10,10], threshold value -1/2):  
   ```python
-  BandArithmetic(CompositeBand("F32", B["03"], Resample(B["11"])), "10*(b1-b2)/(b1+b2) -1/2")
+  layer(BandArithmetic(CompositeBand("F32", B["03"], Resample(B["11"])), "10*(b1-b2)/(b1+b2) -1/2"))
   ```
   This allows for individual modifications, for example to adjust the threshold value (offset), to extensively modify a formula's arithmetic expression, or to quickly implement your very own index.
 * As to L2A products, the newer version (>=14.5) of the Products Specification Document (PSD), which has been introduced with the [operational](https://scihub.copernicus.eu/news/News00305) distribution of L2A products, is taken into account.  

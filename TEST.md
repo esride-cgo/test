@@ -16,7 +16,7 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
 #### Characteristics
 * Specific to Level-2A (L2A) products, various optional water indices are offered:  
   ![](doc/L2A.jpg "Various water indices (based on L2A band images).")
-  By leveraging raster function chains, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for MNDWI reads (with scaling [-10,10], threshold value -1/2):  
+  By leveraging raster function chains, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for MNDWI reads (with scaling [-10,10], threshold value 1/2):  
   ```python
   layer(BandArithmetic(CompositeBand("F32", B["03"], Resample(B["11"])), "10*(b1-b2)/(b1+b2) -1/2"))
   ```

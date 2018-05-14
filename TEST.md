@@ -15,7 +15,7 @@ Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
 * Specific to Level-2A (L2A) products, various optional water indices are offered (NDWI*, MNDWI*, WRI*, MBWI, WI2015*, AWEInsh*, AWEIsh*, etc.), along with supplementary functionality (additional binary mask layers for cloud or snow/ice, cloud filtering for filterable* indices):  
-  ![](doc/RhineFlood_Rees2018.jpg "Various water indices (based on L2A band images).")
+  ![](doc/RhineFlood_Rees2018.jpg "Various water indices (based on L2A band images).")  
   The screenshot above shows the Rhine flood 2018 near the city of Rees (Germany), with the water bodies of the pre-flood situation (T31UGT_20171119T104331) in yellow, whereas the water bodies of the flood situation (T31UGT_20180108T104421) are in pink.  
   By leveraging ArcGIS' raster functions, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for a MNDWI index layer reads (with applied threshold value of 0.05):  
   ```python

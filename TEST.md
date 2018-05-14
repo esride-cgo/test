@@ -49,7 +49,7 @@ CLD+SNW+BOA of the lower product on the right.")
 * Regarding ArcMap 10.4.1:
   * [ArcGIS 10.4.1 Raster Patch](http://support.esri.com/Products/Desktop/arcgis-desktop/arcmap/10-4-1#downloads?id=7396).
   * On affected systems: [ArcGIS Runtime Error R6034 Patch](http://support.esri.com/download/7391).
-* Regarding availability of water indices (and supplementary functionality):
+* Regarding the availability of water indices (and supplementary functionality):
   * ArcGIS 10.5 (or higher) for proper Expression parsing of an index' Band Arithmetic Function.
   * Spatial Analyst extension for supplementary functionality (additional binary mask layers for cloud or snow/ice, cloud filtering for filterable* indices).
 

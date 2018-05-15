@@ -14,14 +14,14 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* Specific to Level-2A (L2A) products, various optional water indices are offered (NDWI*, MNDWI*, WRI*, MBWI, WI2015*, AWEInsh*, AWEIsh*, [etc.](doc/Indices.pdf)), along with supplementary functionality (additional binary mask layers for cloud or snow/ice, cloud filtering for filterable* indices):  
+* Specific to Level-2A (L2A) products, various optional water indices are offered (NDWI*, MNDWI*, WRI*, MBWI, WI2015*, AWEInsh*, AWEIsh*, [etc.](doc/Indices.pdf)), along with optional supplementary functionality (i.e. additional binary mask layers derived from the respective cloud or snow/ice image, as well as cloud or snow/ice filtering for filterable* indices):  
   ![](doc/RhineFlood_Rees2018.jpg "Various water indices (based on L2A band images).")  
   <sup>The screenshot illustrates the Rhine flood 2018 nearby the city of Rees (Germany), where the water bodies of the pre-flood situation (T31UGT_20171119T104331) are displayed in yellow, whereas the water bodies of the flood situation (T31UGT_20180108T104421) are displayed in pink.</sup>  
   By utilizing ArcGIS' raster functions, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for generating a MNDWI index layer reads (with applied threshold value of 0.05):  
   ```python
   index(BandArithmetic(CompositeBand("F32", B["03"], Resample(B["11"])), "(b1-b2)/(b1+b2) -5/100"))
   ```
-  This allows for individual modifications, for example to adjust the threshold value, to extensively modify a formula's arithmetic expression, to rearrange the function chain, or to quickly implement your very own index.  
+  This allows for individual modifications, for example to adjust the default threshold value, to extensively modify a formula's arithmetic expression, to rearrange the function chain, or to quickly implement your very own index.  
   :bulb: Tip: Try out different thresholds to find the most appropriate one with respect to the scene's specific circumstances.  
   All indices are more or less sensitive to the variability of certain conditions like seasonal changes (notably shadow), water turbidity, content of phytoplankton, and so on.
 * As to L2A products: The newer version (≥14.5) of the Products Specification Document (PSD), which has been introduced with the [operational](https://scihub.copernicus.eu/news/News00305) distribution of L2A products, is taken into account.  

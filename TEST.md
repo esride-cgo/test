@@ -51,7 +51,7 @@ CLD+SNW+BOA of the lower product on the right.")
   * On affected systems: [ArcGIS Runtime Error R6034 Patch](http://support.esri.com/download/7391).
 * Regarding the availability of water indices (and supplementary functionality):
   * ArcGIS 10.5 (or higher) for proper Expression parsing of an index' Band Arithmetic Function.
-  * Spatial Analyst extension for supplementary functionality (additional binary mask layers for cloud or snow/ice, cloud filtering for filterable* indices).
+  * Spatial Analyst extension for supplementary functionality (additional binary mask layers for cloud or snow/ice, cloud or snow/ice filtering for filterable* indices).
 
 ## Getting Started
 * [Download ZIP](../../archive/master.zip) and extract its content to a local directory that can be reached by an ArcCatalog _Folder Connection_.  

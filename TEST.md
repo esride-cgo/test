@@ -14,7 +14,7 @@ The purpose is to provide assistance to occasional users to deal with Sentinel d
 Upon download success, the respective raster datasets are displayed in ArcMap.
 
 #### Characteristics
-* Specific to Level-2A (L2A) products, various optional water indices are offered (NDWI*, MNDWI*, WRI*, MBWI, WI2015*, AWEInsh*, AWEIsh*, [etc.](doc/Indices.pdf)), along with optional supplementary functionality (i.e. additional binary mask layers derived from the respective cloud or snow/ice image, as well as cloud or snow/ice filtering for filterable* indices):  
+* Specific to Level-2A (L2A) products, various optional water indices are offered (NDWI*, MNDWI*, WRI*, MBWI, WI2015*, AWEInsh*, AWEIsh*, [etc.](doc/Indices.rtf)), along with optional supplementary functionality (i.e. additional binary mask layers derived from the respective cloud or snow/ice image, as well as cloud or snow/ice filtering for filterable* indices):  
   ![](doc/RhineFlood_Rees2018.jpg "Various water indices (based on L2A band images).")  
   <sup>The screenshot illustrates the Rhine flood 2018 nearby the city of Rees (Germany), where the water bodies of the pre-flood situation (T31UGT_20171119T104331) are displayed in yellow, whereas the water bodies of the flood situation (T31UGT_20180108T104421) are displayed in pink.</sup>  
   By utilizing ArcGIS' raster functions, the index calculation is performed on-the-fly. The respective function chain declaration is script-generated, e.g. the script line for generating a MNDWI index layer reads (with applied threshold value of 0.05):  
